@@ -1,4 +1,4 @@
-function [t,x,y] = IEMsolver2(A,x1_0, x1p_0, x2_0, x2p_0, T,N) 
+function [t,x,y] = IEMsolver2(A, x1_0, x1p_0, x2_0, x2p_0, T, N) 
 %IEMSolver Solves an initial value problem using Improved Euler's Method
 %   This function takes as input an A matrix that describes a specific 
 %   differential equation problem of form Z'=AZ with Z a vector that
